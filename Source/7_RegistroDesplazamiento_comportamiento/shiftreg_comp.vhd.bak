@@ -1,0 +1,51 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+-- Shift register por comportamiento
+
+
+-- ENTITY
+entity shiftreg_comp is
+	-- GENERICS 
+	generic( bitSize : natural := 4);
+	-- PORTS IN/OUT
+	port(
+		-- inputs
+		DIN : in std_logic; -
+		EN : in std_logic;
+		RST: in std_logic;
+		CLK : in std_logic;
+		-- outputs		
+		DOUT: out std_logic
+	);
+		
+end entity shiftreg_comp;
+
+
+-- ARCHITECTURE	
+architecture shiftreg_comp_arq of shiftreg_comp is
+-- GENERICS: INTERNAL AUX SIGNALS, VARIABLES, COMPONENTS
+	signal data : std_logic_vector(bitSize downto 0) := (others => '0');
+	
+	
+-- BEHAVIOR: BEHAVIORAL (sequential process), DATAFLOW (gates), STRUCTURAL (component instantiation)
+begin
+
+	DOUT <= data(bitSize); -- connect aux signal data to main output
+	
+	shiftreg_process : process(CLK) -- count up to bitSize-1 and send input to output
+		variable position : natural := 0; -- count clock cycles and increment data index
+	begin
+		if rising_edge(CLK) then		
+			if RST = '1' then
+				DOUT <= '0';
+			elsif EN ='1' then				
+				for i in 0 to bitSize loop
+					data(i+1) <= data(i);
+				end loop;
+				Data(0) <= DIN;		
+			end if;
+		end if;
+	end process shiftreg_process;
+						
+end shiftreg_comp_arq;

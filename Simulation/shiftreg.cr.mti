@@ -1,0 +1,28 @@
+C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/shiftreg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/shiftreg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shiftreg
+-- Compiling architecture shiftreg_arq of shiftreg
+-- Loading entity ffd
+
+} {} {}} C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/ffd.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/ffd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ffd
+-- Compiling architecture ffd_arq_sync of ffd
+-- Compiling architecture ffd_arq_async of ffd
+-- Loading entity ffd
+
+} {} {}} C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/shiftreg_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/shiftreg_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shiftreg_tb
+-- Compiling architecture shiftreg_arq_tb of shiftreg_tb
+
+} {} {}}

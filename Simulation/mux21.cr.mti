@@ -1,0 +1,18 @@
+C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux21
+-- Compiling architecture mux21_arq of mux21
+
+} {} {}} C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux21_tb
+-- Compiling architecture mux21_arq_tb of mux21_tb
+-- Loading entity mux21
+
+} {} {}}
