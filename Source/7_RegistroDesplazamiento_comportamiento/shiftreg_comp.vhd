@@ -31,9 +31,6 @@ architecture shiftreg_comp_arq of shiftreg_comp is
 -- BEHAVIOR: BEHAVIORAL (sequential process), DATAFLOW (gates), STRUCTURAL (component instantiation)
 begin
 	
-	--DOUT <= data(0);
-	--data(3) <= DIN;
-	
 	shiftreg_process : process(CLK) -- count up to bitSize-1 and send input to output	
 	begin
 		
@@ -41,15 +38,17 @@ begin
 			if RST = '1' then
 				DOUT <= '0';
 			elsif EN ='1' then	
-				data(0) <= data(1);
-				data(1) <= data(2);
-				data(2) <= data(3);
-				data(3) <= DIN;		
+				for i in 0 to bitSize-2 loop
+					data(i) <= data(i+1);
+					--data(0) <= data(1);
+					--data(1) <= data(2);
+					--data(2) <= data(3);
+				end loop;
+				data(bitSize-1) <= DIN;		
 				DOUT <= data(0);
 			end if;					
 		end if;		
 		
 	end process shiftreg_process;
-	
 						
 end shiftreg_comp_arq;
