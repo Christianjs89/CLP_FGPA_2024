@@ -1,0 +1,92 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+-- Barrel shifter por comportamiento
+
+
+-- ENTITY
+entity barrelshifter_comp is
+	-- GENERICS 
+	generic( 
+		bitSize : natural := 4;
+		shiftSize : natural := 2 ); -- despSize**2 = bitSize
+	-- PORTS IN/OUT
+	port(
+		-- inputs
+		DIN : in std_logic_vector(bitSize-1 downto 0);		
+		SHIFT: in std_logic_vector(shiftSize-1 downto 0);
+		-- outputs		
+		DOUT: out std_logic_vector(bitSize-1 downto 0)
+	);
+		
+end entity barrelshifter_comp;
+
+
+-- ARCHITECTURE	
+architecture barrelshifter_comp_arq of barrelshifter_comp is
+-- FUNCTIONS
+
+-- GENERICS: INTERNAL AUX SIGNALS, VARIABLES, COMPONENTS
+	signal data : std_logic_vector(bitSize-1 downto 0);
+	--constant shiftCount : integer := to_integer(unsigned(SHIFT));
+	constant shiftCount : integer := 2;
+	--variable shiftCount : integer := 2;
+	
+-- BEHAVIOR: BEHAVIORAL (sequential process), DATAFLOW (gates), STRUCTURAL (component instantiation)
+begin
+	
+	p: process
+	begin
+	g: for i in 0 to (bitSize-1) loop
+		report "i=" & integer'image(i);
+	end loop g;
+	end process p;
+	
+	-- data <= DIN;
+	-- shifter : for i in 0 to (bitSize-1) generate
+		-- if ((i+shiftCount) > (bitSize-1) ) then
+			-- data(i) <= data(i+shiftCount-bitSize);
+		-- else 
+			-- data(i) <= data(i+shiftCount);				
+		-- end if;
+	-- end generate shifter;	
+	
+		-- barrelshift_process : process(DIN) -- count up to bitSize-1 and send input to output	
+			----variable shiftCount : integer;
+			
+		-- begin
+			----shiftCount := to_integer(unsigned(SHIFT));
+			
+			-- shifter : for i in 0 to bitSize-1 loop
+				-- if ((i+shiftCount) > (bitSize-1)) then
+					-- data(i) <= data(i+shiftCount-bitSize);
+				-- else
+					-- data(i) <= data(i+shiftCount);
+				-- end if;
+			
+			-- end loop shifter;
+			
+		-- end process barrelshift_process;
+		
+		--DOUT <= data;
+		
+						
+end barrelshifter_comp_arq;
+
+
+
+	-- function get_m(x : natural := 4) return integer is
+		-- variable count : natural := 0;
+		-- variable aux : natural := x;
+	
+	-- begin
+			-- for j in 1 to x loop
+				-- count := j;
+				-- aux := aux/2;
+				-- if aux = 1 then
+					-- exit;	
+				-- end if;
+			-- end loop;
+			-- return count;
+	-- end get_m;
