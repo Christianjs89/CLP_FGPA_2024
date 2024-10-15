@@ -168,67 +168,229 @@ R20
 !i113 1
 R12
 R13
-Effd
-Z29 w1728162022
+Ecounter4b
+Z29 w1728935487
 R2
 R3
-R4
-Z30 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/ffd.vhd
-Z31 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/ffd.vhd
+Z30 dC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Simulation
+Z31 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/10_Contador_estructural/counter4b.vhd
+Z32 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/10_Contador_estructural/counter4b.vhd
+l0
+L4
+V221@M5I0?J?bXQ[^a@11g2
+!s100 Q1NUEgJbXlA:1N]cl8Im?1
+R7
+32
+Z33 !s110 1728937974
+!i10b 1
+Z34 !s108 1728937974.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/10_Contador_estructural/counter4b.vhd|
+Z36 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/10_Contador_estructural/counter4b.vhd|
+!i113 1
+R12
+R13
+Acounter4b_arq
+R2
+R3
+DEx4 work 9 counter4b 0 22 221@M5I0?J?bXQ[^a@11g2
+l33
+L15
+VNz[z]2CWAHGOEE27bSTLH3
+!s100 96hnineoj^Y=cnR;g:DTQ3
+R7
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R12
+R13
+Ecounter4b_comp
+Z37 w1728939085
+R1
+R2
+R3
+R30
+Z38 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp.vhd
+Z39 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp.vhd
+l0
+L5
+V2SNFX_CJg<@f9So57fDX11
+!s100 0>E;G^FBgEk_zJI>9@Ng03
+R7
+32
+Z40 !s110 1728939149
+!i10b 1
+Z41 !s108 1728939149.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp.vhd|
+Z43 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp.vhd|
+!i113 1
+R12
+R13
+Acounter4b_comp_arq
+R1
+R2
+R3
+DEx4 work 14 counter4b_comp 0 22 2SNFX_CJg<@f9So57fDX11
+l20
+L16
+VMSgEF`]lV;[Mj_6h>]JRL0
+!s100 KbTJ:_K3i5HJ=30o1gX[Z2
+R7
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R12
+R13
+Ecounter4b_comp_tb
+Z44 w1728939134
+R2
+R3
+R30
+Z45 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp_tb.vhd
+Z46 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp_tb.vhd
+l0
+L4
+VS4e^HQh?=^YzRPB`V?32e0
+!s100 YHDH:_Q`ChU=``cnl]<zD0
+R7
+32
+R40
+!i10b 1
+R41
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp_tb.vhd|
+Z48 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp_tb.vhd|
+!i113 1
+R12
+R13
+Acounter4b_arq_tb
+R2
+R3
+DEx4 work 17 counter4b_comp_tb 0 22 S4e^HQh?=^YzRPB`V?32e0
+l24
+L7
+V`6oW?;4R9?af^1l;GL5@J3
+!s100 k<a>3I<mgzS5cX]gdTFfe3
+R7
+32
+R40
+!i10b 1
+R41
+R47
+R48
+!i113 1
+R12
+R13
+Ecounter4b_tb
+Z49 w1728937968
+R2
+R3
+R30
+R45
+R46
+l0
+L4
+VfI7oXb12D;@@<0l4;eFjU2
+!s100 4@cRB[j:L6KzZde<K97S`3
+R7
+32
+Z50 !s110 1728939093
+!i10b 1
+Z51 !s108 1728939093.000000
+R47
+R48
+!i113 1
+R12
+R13
+Acounter4b_arq_tb
+R2
+R3
+DEx4 work 12 counter4b_tb 0 22 fI7oXb12D;@@<0l4;eFjU2
+l24
+L7
+V^P455[?VmD>V2^0nLNP]90
+!s100 J:J6Ue>_^^K6PVWz@@LF71
+R7
+32
+R50
+!i10b 1
+R51
+R47
+R48
+!i113 1
+R12
+R13
+Effd
+Z52 w1728932231
+R2
+R3
+R30
+Z53 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/10_Contador_estructural/ffd.vhd
+Z54 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/10_Contador_estructural/ffd.vhd
 l0
 L5
 VE@^18h5Cj5bRSbgdJ>U@d3
 !s100 OD:WT^7;_<7JU;7g[cied0
 R7
 32
-Z32 !s110 1728173969
-!i10b 1
-Z33 !s108 1728173969.000000
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/ffd.vhd|
-Z35 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/ffd.vhd|
-!i113 1
-R12
-R13
-Affd_arq_async
-R2
-R3
-Z36 DEx4 work 3 ffd 0 22 E@^18h5Cj5bRSbgdJ>U@d3
-l47
-L43
-V?iV^HH3YUnncRPeLPPELX3
-!s100 XVnZV7ZX52o<?2dzz`Hld0
-R7
-32
-R32
-!i10b 1
 R33
+!i10b 1
 R34
-R35
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/10_Contador_estructural/ffd.vhd|
+Z56 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/10_Contador_estructural/ffd.vhd|
 !i113 1
 R12
 R13
 Affd_arq_sync
 R2
 R3
-R36
+Z57 DEx4 work 3 ffd 0 22 E@^18h5Cj5bRSbgdJ>U@d3
 l26
 L22
 Va[4XEPJjg=;YD47Q[ihcQ3
 !s100 7_aAGG7cH[bWW35UEkH1b3
 R7
 32
-R32
-!i10b 1
 R33
+!i10b 1
 R34
-R35
+R55
+R56
 !i113 1
 R12
 R13
+Affd_arq_async
+R2
+R3
+R57
+l47
+L43
+V?iV^HH3YUnncRPeLPPELX3
+!s100 XVnZV7ZX52o<?2dzz`Hld0
+R7
+32
+!s110 1728173969
+!i10b 1
+!s108 1728173969.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/ffd.vhd|
+!s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/ffd.vhd|
+!i113 1
+R12
+R13
+R4
+FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/ffd.vhd
+w1728162022
+8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/6_RegistroDesplazamiento/ffd.vhd
 Affd_arq
 R2
 R3
-R36
+R57
 l25
 L21
 VQU[E@LnRmQ:68<OfZ<_213
@@ -238,79 +400,82 @@ R7
 !s110 1728150100
 !i10b 1
 !s108 1728150100.000000
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd.vhd|
-Z38 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd.vhd|
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd.vhd|
+Z59 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd.vhd|
 !i113 1
 R12
 R13
 w1728150006
-Z39 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd.vhd
-Z40 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd.vhd
+Z60 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd.vhd
+Z61 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd.vhd
+R4
 Affd_arq_2
 R2
 R3
-R36
+R57
 l44
 L40
 VA9F5:AFTOTmhhS90zV9oZ1
 !s100 MU9?z1W7Vz]i?b@l@HdHB3
 R7
 32
-Z41 !s110 1728149840
+Z62 !s110 1728149840
 !i10b 1
-Z42 !s108 1728149840.000000
-R37
-R38
+Z63 !s108 1728149840.000000
+R58
+R59
 !i113 1
 R12
 R13
-Z43 w1728149837
-R39
-R40
+Z64 w1728149837
+R60
+R61
+R4
 Affd_arq_1
 R2
 R3
-R36
+R57
 l25
 L21
 V4o[0E1jUahXEKSG70_02o1
 !s100 QkHbINF>S<8D0jYCK8jGo2
 R7
 32
-R41
+R62
 !i10b 1
-R42
-R37
-R38
+R63
+R58
+R59
 !i113 1
 R12
 R13
-R43
-R39
-R40
+R64
+R60
+R61
+R4
 Effd_tb
-Z44 w1728162142
+Z65 w1728162142
 R2
 R3
 R4
-Z45 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd_tb.vhd
-Z46 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd_tb.vhd
+Z66 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd_tb.vhd
+Z67 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd_tb.vhd
 l0
 L5
 V1cL`NgEGH4:M]XV?5e>7<2
 !s100 4B;K=X82]9HYji^jDGZoS1
 R7
 32
-Z47 !s110 1728162147
+Z68 !s110 1728162147
 !i10b 1
-Z48 !s108 1728162147.000000
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd_tb.vhd|
-Z50 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd_tb.vhd|
+Z69 !s108 1728162147.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd_tb.vhd|
+Z71 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/5_FilpFlopD/ffd_tb.vhd|
 !i113 1
 R12
 R13
 Affd_arq_tb
-R36
+R57
 R2
 R3
 DEx4 work 6 ffd_tb 0 22 1cL`NgEGH4:M]XV?5e>7<2
@@ -320,76 +485,76 @@ VJ:f8LWL]4WAS2?>U_eaKo2
 !s100 3:5V?^TGj`TJXAlVNd69I1
 R7
 32
-R47
+R68
 !i10b 1
-R48
-R49
-R50
+R69
+R70
+R71
 !i113 1
 R12
 R13
 Emux21
-Z51 w1728512681
+Z72 w1728512681
 R2
 R3
 R4
-Z52 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/9_BarrelShifter_mux_4bits/mux2x1.vhd
-Z53 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/9_BarrelShifter_mux_4bits/mux2x1.vhd
+Z73 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/9_BarrelShifter_mux_4bits/mux2x1.vhd
+Z74 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/9_BarrelShifter_mux_4bits/mux2x1.vhd
 l0
 L8
 Vb6:oTWJ@gNSiF4]ho2mOD0
 !s100 X<nnA@;iFfe7bGUl=><R]1
 R7
 32
-Z54 !s110 1728519016
+Z75 !s110 1728519016
 !i10b 1
-Z55 !s108 1728519016.000000
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/9_BarrelShifter_mux_4bits/mux2x1.vhd|
-Z57 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/9_BarrelShifter_mux_4bits/mux2x1.vhd|
+Z76 !s108 1728519016.000000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/9_BarrelShifter_mux_4bits/mux2x1.vhd|
+Z78 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/9_BarrelShifter_mux_4bits/mux2x1.vhd|
 !i113 1
 R12
 R13
 Amux21_arq
 R2
 R3
-Z58 DEx4 work 5 mux21 0 22 b6:oTWJ@gNSiF4]ho2mOD0
+Z79 DEx4 work 5 mux21 0 22 b6:oTWJ@gNSiF4]ho2mOD0
 l27
 L23
-Z59 V>F6O7[Qe=WfHFZ?P@AMK91
-Z60 !s100 RE<?]e3Z6Y9BnRh>06nin1
+V>F6O7[Qe=WfHFZ?P@AMK91
+!s100 RE<?]e3Z6Y9BnRh>06nin1
 R7
 32
-R54
+R75
 !i10b 1
-R55
-R56
-R57
+R76
+R77
+R78
 !i113 1
 R12
 R13
 Emux21_tb
-Z61 w1728146223
+Z80 w1728146223
 R2
 R3
 R4
-Z62 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1_tb.vhd
-Z63 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1_tb.vhd
+Z81 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1_tb.vhd
+Z82 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1_tb.vhd
 l0
 L5
 VP=No2eG9FfTf5:ReXc3f]1
 !s100 aeNkB^_SIeH6[QjjS57e_3
 R7
 32
-Z64 !s110 1728146226
+Z83 !s110 1728146226
 !i10b 1
-Z65 !s108 1728146226.000000
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1_tb.vhd|
-Z67 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1_tb.vhd|
+Z84 !s108 1728146226.000000
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1_tb.vhd|
+Z86 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/4_multiplexor21/mux2x1_tb.vhd|
 !i113 1
 R12
 R13
 Amux21_arq_tb
-R58
+R79
 R2
 R3
 DEx4 work 8 mux21_tb 0 22 P=No2eG9FfTf5:ReXc3f]1
@@ -399,32 +564,32 @@ VoG09:cEH`DW18AF?]0b`C1
 !s100 ;j:I=@30hMR8O37_kRRUl2
 R7
 32
-R64
+R83
 !i10b 1
-R65
-R66
-R67
+R84
+R85
+R86
 !i113 1
 R12
 R13
 Eshiftreg
-Z68 w1728247352
+Z87 w1728247352
 R2
 R3
 R4
-Z69 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp.vhd
-Z70 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp.vhd
+Z88 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp.vhd
+Z89 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp.vhd
 l0
 L8
 VlO]eH3SBZ7E2Yb];6AGkM0
 !s100 <a31N2S9E;VlzL]oa[`Cn1
 R7
 32
-Z71 !s110 1728247380
+Z90 !s110 1728247380
 !i10b 1
-Z72 !s108 1728247380.000000
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp.vhd|
-Z74 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp.vhd|
+Z91 !s108 1728247380.000000
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp.vhd|
+Z93 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp.vhd|
 !i113 1
 R12
 R13
@@ -438,32 +603,32 @@ VFTJhddG:X_iBdTF2;o@oW1
 !s100 ]clKQ:TDgJU<U]`7HC@>E3
 R7
 32
-R71
+R90
 !i10b 1
-R72
-R73
-R74
+R91
+R92
+R93
 !i113 1
 R12
 R13
 Eshiftreg_comp
-Z75 w1728336889
+Z94 w1728336889
 R2
 R3
 R4
-R69
-R70
+R88
+R89
 l0
 L8
 VUn`WASE_z_>I8z;_o`d@R0
 !s100 B[@CUM^A]bY1>Cdn51Ubh1
 R7
 32
-Z76 !s110 1728336900
+Z95 !s110 1728336900
 !i10b 1
-Z77 !s108 1728336900.000000
-R73
-R74
+Z96 !s108 1728336900.000000
+R92
+R93
 !i113 1
 R12
 R13
@@ -477,32 +642,32 @@ V43HN`c^lJn3CF0HJIEQ@`3
 !s100 KNiV9k=Fl4AfJg383QXoF3
 R7
 32
-R76
+R95
 !i10b 1
-R77
-R73
-R74
+R96
+R92
+R93
 !i113 1
 R12
 R13
 Eshiftreg_comp_tb
-Z78 w1728334120
+Z97 w1728334120
 R2
 R3
 R4
-Z79 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/8_BarrelShifter_Nbits/barrelshifter_comp_tb.vhd
-Z80 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/8_BarrelShifter_Nbits/barrelshifter_comp_tb.vhd
+Z98 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/8_BarrelShifter_Nbits/barrelshifter_comp_tb.vhd
+Z99 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/8_BarrelShifter_Nbits/barrelshifter_comp_tb.vhd
 l0
 L5
 Vjz5mJMl[i@gQ1E;WUdI_F3
 !s100 BW74R7EdzeQHeSR1c2akk2
 R7
 32
-Z81 !s110 1728341224
+Z100 !s110 1728341224
 !i10b 1
-Z82 !s108 1728341224.000000
-Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/8_BarrelShifter_Nbits/barrelshifter_comp_tb.vhd|
-Z84 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/8_BarrelShifter_Nbits/barrelshifter_comp_tb.vhd|
+Z101 !s108 1728341224.000000
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/8_BarrelShifter_Nbits/barrelshifter_comp_tb.vhd|
+Z103 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/8_BarrelShifter_Nbits/barrelshifter_comp_tb.vhd|
 !i113 1
 R12
 R13
@@ -516,32 +681,32 @@ Vm^T6f<El<Vl0PDG7[Q83>0
 !s100 :3Zg;16iDW>;doPFhPGh83
 R7
 32
-R81
+R100
 !i10b 1
-R82
-R83
-R84
+R101
+R102
+R103
 !i113 1
 R12
 R13
 Eshiftreg_tb
-Z85 w1728174369
+Z104 w1728174369
 R2
 R3
 R4
-Z86 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp_tb.vhd
-Z87 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp_tb.vhd
+Z105 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp_tb.vhd
+Z106 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp_tb.vhd
 l0
 L5
 V;PgOjJmY=j0?>71HcXjXc0
 !s100 __=M_gRiYFz3o[c3H47j90
 R7
 32
-R71
+R90
 !i10b 1
-R72
-Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp_tb.vhd|
-Z89 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp_tb.vhd|
+R91
+Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp_tb.vhd|
+Z108 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/7_RegistroDesplazamiento_comportamiento/shiftreg_comp_tb.vhd|
 !i113 1
 R12
 R13
@@ -555,32 +720,32 @@ VB_Q@U1WGR<aM6dMz4kC3D1
 !s100 aF@dd44<V_@4^;dgff;zO2
 R7
 32
-R71
+R90
 !i10b 1
-R72
-R88
-R89
+R91
+R107
+R108
 !i113 1
 R12
 R13
 Esum1b
-Z90 w1728051221
+Z109 w1728051221
 R2
 R3
 R4
-Z91 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum1b.vhd
-Z92 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum1b.vhd
+Z110 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum1b.vhd
+Z111 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum1b.vhd
 l0
 L5
 V?9_ALg<2j<P9JdA9BRSTV2
 !s100 GFc=]M;z]ekLD]F]jm3Dg2
 R7
 32
-Z93 !s110 1728144038
+Z112 !s110 1728144038
 !i10b 1
-Z94 !s108 1728144038.000000
-Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum1b.vhd|
-Z96 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum1b.vhd|
+Z113 !s108 1728144038.000000
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum1b.vhd|
+Z115 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum1b.vhd|
 !i113 1
 R12
 R13
@@ -594,32 +759,32 @@ V^45a;BYc7=>6^H1YoRc;Y2
 !s100 Vd:mP<XO==`4FD?5ja4Xi2
 R7
 32
-R93
+R112
 !i10b 1
-R94
-R95
-R96
+R113
+R114
+R115
 !i113 1
 R12
 R13
 Esum1b_tb
-Z97 w1728052630
+Z116 w1728052630
 R2
 R3
 R4
-Z98 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sum1b_tb.vhd
-Z99 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sum1b_tb.vhd
+Z117 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sum1b_tb.vhd
+Z118 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sum1b_tb.vhd
 l0
 L5
 VdP8NPk^47TM8gUG?`Tcz10
 !s100 `K7:R>mFlJP;bK<_R4OHG1
 R7
 32
-Z100 !s110 1728052643
+Z119 !s110 1728052643
 !i10b 1
-Z101 !s108 1728052643.000000
-Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sum1b_tb.vhd|
-Z103 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sum1b_tb.vhd|
+Z120 !s108 1728052643.000000
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sum1b_tb.vhd|
+Z122 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sum1b_tb.vhd|
 !i113 1
 R12
 R13
@@ -633,32 +798,32 @@ VTX]N8WmMGISHM_5RRDcCB3
 !s100 MlT83P`fWhUf;CEccaRKJ2
 R7
 32
-R100
+R119
 !i10b 1
-R101
-R102
-R103
+R120
+R121
+R122
 !i113 1
 R12
 R13
 Esum4b
-Z104 w1728073309
+Z123 w1728073309
 R2
 R3
 R4
-Z105 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum4b.vhd
-Z106 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum4b.vhd
+Z124 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum4b.vhd
+Z125 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum4b.vhd
 l0
 L5
 V8eiVgf2l7^3>_T[oQZJ=K1
 !s100 _Xg@2lhSGGnnZ`?JOYXc:3
 R7
 32
-R93
+R112
 !i10b 1
-R94
-Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum4b.vhd|
-Z108 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum4b.vhd|
+R113
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum4b.vhd|
+Z127 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sum4b.vhd|
 !i113 1
 R12
 R13
@@ -672,32 +837,32 @@ VzRg5UJZ5`>:UA;=^]R:o91
 !s100 hZeN;BL90S]Ig3_cn4;`@1
 R7
 32
-R93
+R112
 !i10b 1
-R94
-R107
-R108
+R113
+R126
+R127
 !i113 1
 R12
 R13
 Esum4b_tb
-Z109 w1728075961
+Z128 w1728075961
 R2
 R3
 R4
-Z110 8C:\Users\chris\OneDrive\Documents\2_CESE\10_Circuitos_Logicos_Programables\Guia\Source\sum4b\sum4b_tb.vhd
-Z111 FC:\Users\chris\OneDrive\Documents\2_CESE\10_Circuitos_Logicos_Programables\Guia\Source\sum4b\sum4b_tb.vhd
+Z129 8C:\Users\chris\OneDrive\Documents\2_CESE\10_Circuitos_Logicos_Programables\Guia\Source\sum4b\sum4b_tb.vhd
+Z130 FC:\Users\chris\OneDrive\Documents\2_CESE\10_Circuitos_Logicos_Programables\Guia\Source\sum4b\sum4b_tb.vhd
 l0
 L5
 VNa?cfM261S:V`Kz@BG]Hj3
 !s100 =9JU0a2`?G74m>KBOB;GT3
 R7
 32
-Z112 !s110 1728075974
+Z131 !s110 1728075974
 !i10b 1
-Z113 !s108 1728075974.000000
-Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\chris\OneDrive\Documents\2_CESE\10_Circuitos_Logicos_Programables\Guia\Source\sum4b\sum4b_tb.vhd|
-Z115 !s107 C:\Users\chris\OneDrive\Documents\2_CESE\10_Circuitos_Logicos_Programables\Guia\Source\sum4b\sum4b_tb.vhd|
+Z132 !s108 1728075974.000000
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\chris\OneDrive\Documents\2_CESE\10_Circuitos_Logicos_Programables\Guia\Source\sum4b\sum4b_tb.vhd|
+Z134 !s107 C:\Users\chris\OneDrive\Documents\2_CESE\10_Circuitos_Logicos_Programables\Guia\Source\sum4b\sum4b_tb.vhd|
 !i113 1
 R12
 R13
@@ -711,32 +876,32 @@ V_]AC]ETG87nRC@9`TPO043
 !s100 ^8bf1ehhB2DSF8>]kT:YP2
 R7
 32
-R112
+R131
 !i10b 1
-R113
-R114
-R115
+R132
+R133
+R134
 !i113 1
 R12
 R13
 Esumres4b
-Z116 w1728085559
+Z135 w1728085559
 R2
 R3
 R4
-Z117 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b.vhd
-Z118 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b.vhd
+Z136 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b.vhd
+Z137 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b.vhd
 l0
 L5
 Vmb?aR;`CR@B2iCQ`j;:1b3
 !s100 TBQeEin`P>gklS9]dD4>61
 R7
 32
-R93
+R112
 !i10b 1
-R94
-Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b.vhd|
-Z120 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b.vhd|
+R113
+Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b.vhd|
+Z139 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b.vhd|
 !i113 1
 R12
 R13
@@ -750,32 +915,32 @@ VWXWngAm^?_]FhRC53Ko@:0
 !s100 eKLb_0jzeRY9C]7FHQRDh0
 R7
 32
-R93
+R112
 !i10b 1
-R94
-R119
-R120
+R113
+R138
+R139
 !i113 1
 R12
 R13
 Esumres4b_tb
-Z121 w1728144344
+Z140 w1728144344
 R2
 R3
 R4
-Z122 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b_tb.vhd
-Z123 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b_tb.vhd
+Z141 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b_tb.vhd
+Z142 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b_tb.vhd
 l0
 L5
 VoYZoPiFW2g;^m9BX[=0?l0
 !s100 dFb2:O4MRJ3@>Td9dIe2M1
 R7
 32
-Z124 !s110 1728144378
+Z143 !s110 1728144378
 !i10b 1
-Z125 !s108 1728144378.000000
-Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b_tb.vhd|
-Z127 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b_tb.vhd|
+Z144 !s108 1728144378.000000
+Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b_tb.vhd|
+Z146 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos_Programables/Guia/Source/sumres4b/sumres4b_tb.vhd|
 !i113 1
 R12
 R13
@@ -789,11 +954,11 @@ VI`62Tz^YCm4Q<`IF1C[`[3
 !s100 hD@;_kMDebOh=61<0bY?e2
 R7
 32
-R124
+R143
 !i10b 1
-R125
-R126
-R127
+R144
+R145
+R146
 !i113 1
 R12
 R13

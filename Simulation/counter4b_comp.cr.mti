@@ -1,0 +1,18 @@
+C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity counter4b_comp_tb
+-- Compiling architecture counter4b_arq_tb of counter4b_comp_tb
+
+} {} {}} C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/11_Contador_comportamiento/counter4b_comp.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter4b_comp
+-- Compiling architecture counter4b_comp_arq of counter4b_comp
+
+} {} {}}
