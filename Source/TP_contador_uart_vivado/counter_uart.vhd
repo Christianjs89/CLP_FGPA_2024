@@ -6,13 +6,15 @@ use IEEE.numeric_std.all;
 entity uart_counter is
 	generic(
 		BAUD_RATE: integer := 115200;  
-		CLOCK_RATE: integer := 125E6
+		CLOCK_RATE: integer := 125E6;
+		COUNTER_BITSIZE : integer := 8
 	);
 	port(
 		-- Write side inputs
 		clk_pin:	in std_logic;      					-- Clock input (from pin)
 		rst_pin: 	in std_logic;      					-- Active HIGH reset (from pin)
 		rxd_pin: 	in std_logic;      					-- RS232 RXD pin - directly from pin
+		count_value : out std_logic_vector(COUNTER_BITSIZE-1 downto 0)
 	);
 end;
 
@@ -37,11 +39,30 @@ architecture uart_counter_arq of uart_counter is
 		);
 	end component;
 	
+	
+	component counterRX is
+	generic(
+		CLOCK_RATE : integer := 125E6;
+		BIT_SIZE   : integer := 8 						-- upper limit = 2^n - 1
+		);
+	port(
+		CLOCK      : in std_logic;
+		COMMAND	   : in std_logic_vector(7 downto 0); 	-- ascii code received
+		READY_FLAG : in std_logic;
+		COUNT      : out std_logic_vector(COUNTER_BITSIZE-1 downto 0)
+	);
+
+	end component;
+	
+		
 	signal rx_data: std_logic_vector(7 downto 0); 	-- Data output of uart_rx
 	signal rx_data_rdy: std_logic;  				-- Data ready output of uart_rx
-
-
+    signal rst_clk_rx: std_logic; -- dummy for now
+    signal rx_pin_data : std_logic;
+    
 begin
+
+    rx_pin_data <= rxd_pin;
 
 	-- UART instance to get the ascii command and the data ready flags
 	uart_rx_i0: uart_rx 
@@ -52,13 +73,25 @@ begin
 		port map(
 			clk_rx     	=> clk_pin,
 			rst_clk_rx 	=> rst_clk_rx,	
-			rxd_i      	=> rxd_pin,
+			rxd_i      	=> rx_pin_data,
 			rxd_clk_rx 	=> open,	
 			rx_data_rdy	=> rx_data_rdy,
 			rx_data    	=> rx_data,
 			frm_err    	=> open
 		);	
 		
+	
+	counter_inst : counterRX
+	generic map(
+		CLOCK_RATE => CLOCK_RATE,
+		BIT_SIZE   => COUNTER_BITSIZE
+		)
+	port map(
+		CLOCK      => clk_pin,
+		COMMAND	   => rx_data, 
+		READY_FLAG => rx_data_rdy, 
+		COUNT      => count_value
+	);
 	
 
 end;

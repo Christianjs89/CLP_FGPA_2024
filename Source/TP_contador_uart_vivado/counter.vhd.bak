@@ -4,7 +4,7 @@ use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
 
-entity counterRX is
+entity counter is
 	generic(
 		CLOCK_RATE : integer := 125E6;
 		BIT_SIZE   : integer := 8 -- upper limit UL = 2^n - 1
@@ -18,7 +18,7 @@ entity counterRX is
 
 end;
 
-architecture counter_arq of counterRX is
+architecture counter_arq of counter is
 
 	signal cnt_aux : unsigned(BIT_SIZE-1 downto 0) := (others => '0');
 	signal slow_clock : std_logic := '0';
@@ -47,7 +47,6 @@ begin
 				slow_clock <= '0';
 				ticks := ticks + 1;				
 			end if;
-		end if;
 		
 	end process;
 
