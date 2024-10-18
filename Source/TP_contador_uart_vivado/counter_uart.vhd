@@ -11,19 +11,20 @@ entity uart_counter is
 	);
 	port(
 		-- Write side inputs
-		clk_pin:	in std_logic;      					-- Clock input (from pin)
-		rst_pin: 	in std_logic;      					-- Active HIGH reset (from pin)
-		rxd_pin: 	in std_logic;      					-- RS232 RXD pin - directly from pin
-		count_value : out std_logic_vector(COUNTER_BITSIZE-1 downto 0)
+		clk_pin:	in std_logic;      									-- Clock input (from pin)
+		rst_pin: 	in std_logic;      									-- Active HIGH reset (from pin)
+		rxd_pin: 	in std_logic;      									-- RS232 RXD pin - directly from pin
+		count_value : out std_logic_vector(COUNTER_BITSIZE-1 downto 0); -- N-bit current count value
+		count_state : out std_logic_vector(7 downto 0)					-- current counter control state: UP, DOWN, PAUSE, RESET
 	);
 end;
 
 architecture uart_counter_arq of uart_counter is
 
 	-- declare components and signals to use
-	component uart_rx is
+	component uart_rx is -- black box
 		generic(
-			BAUD_RATE: integer; -- these values are updated once it's instanciated
+			BAUD_RATE: integer; 						-- these values are updated once it's instanciated
 			CLOCK_RATE: integer
 		);
 		port(
@@ -39,17 +40,18 @@ architecture uart_counter_arq of uart_counter is
 		);
 	end component;
 	
-	
+	-- counter controlled by UART characters
 	component counterRX is
 	generic(
-		CLOCK_RATE : integer := 125E6;
+		CLOCK_RATE : integer := 125E6;					-- 
 		BIT_SIZE   : integer := 8 						-- upper limit = 2^n - 1
 		);
 	port(
 		CLOCK      : in std_logic;
 		COMMAND	   : in std_logic_vector(7 downto 0); 	-- ascii code received
 		READY_FLAG : in std_logic;
-		COUNT      : out std_logic_vector(COUNTER_BITSIZE-1 downto 0)
+		COUNT      : out std_logic_vector(COUNTER_BITSIZE-1 downto 0);
+		STATE      : out std_logic_vector(7 downto 0)
 	);
 
 	end component;
@@ -59,6 +61,7 @@ architecture uart_counter_arq of uart_counter is
 	signal rx_data_rdy: std_logic;  				-- Data ready output of uart_rx
     signal rst_clk_rx: std_logic; -- dummy for now
     signal rx_pin_data : std_logic;
+    signal state_value : std_logic_vector(7 downto 0); -- current counter state: up, down, etc.
     
 begin
 
@@ -90,8 +93,11 @@ begin
 		CLOCK      => clk_pin,
 		COMMAND	   => rx_data, 
 		READY_FLAG => rx_data_rdy, 
-		COUNT      => count_value
+		COUNT      => count_value,
+		STATE      => state_value
 	);
+	
+	count_state <= state_value; -- signal current state: UP, DOWN, PAUSE, RESET.
 	
 
 end;

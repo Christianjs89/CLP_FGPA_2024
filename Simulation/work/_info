@@ -1126,3 +1126,42 @@ R164
 !i113 1
 R12
 R13
+Etest
+Z165 w1729265742
+R2
+R3
+R30
+Z166 8C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/--tests/--test.vhd
+Z167 FC:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/--tests/--test.vhd
+l0
+L6
+VfMn4bM_dfj>o4<Tn1_<7I3
+!s100 VzGIPc5O@[XInl@l@Tn?H2
+R7
+32
+Z168 !s110 1729265744
+!i10b 1
+Z169 !s108 1729265744.000000
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/--tests/--test.vhd|
+Z171 !s107 C:/Users/chris/OneDrive/Documents/2_CESE/10_Circuitos_Logicos/Guia/Source/--tests/--test.vhd|
+!i113 1
+R12
+R13
+Atest_arq
+R2
+R3
+DEx4 work 4 test 0 22 fMn4bM_dfj>o4<Tn1_<7I3
+l12
+L9
+V^oP^IRRkjXQ0dNk`jcH3R1
+!s100 Uad[HH3@51YSH>E:j^68I0
+R7
+32
+R168
+!i10b 1
+R169
+R170
+R171
+!i113 1
+R12
+R13

@@ -26,20 +26,23 @@ architecture uart_counter_vio_arq of uart_counter_vio is
 			clk_pin:	in std_logic;      					-- Clock input (from pin)
 			rst_pin: 	in std_logic;      					-- Active HIGH reset (from pin)
 			rxd_pin: 	in std_logic;      					-- RS232 RXD pin - directly from pin
-			count_value : out std_logic_vector(count_bitsize-1 downto 0)
+			count_value : out std_logic_vector(count_bitsize-1 downto 0);
+			count_state : out std_logic_vector(7 downto 0)
 		);
 	end component;	
 	
-	COMPONENT vio_0
+    COMPONENT vio_0
       PORT (
         clk : IN STD_LOGIC;
         probe_in0 : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+        probe_in1 : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
         probe_out0 : OUT STD_LOGIC_VECTOR(0 DOWNTO 0)
       );
     END COMPONENT;
 	
 	signal probe_rst : std_logic_vector(0 downto 0);
 	signal probe_count : std_logic_vector(count_bitsize-1 downto 0);
+	signal probe_state : std_logic_vector(7 downto 0);
 
 begin
 
@@ -53,7 +56,8 @@ begin
 			clk_pin		=> clk_i,  					-- Clock input (from pin)
 			rst_pin		=> probe_rst(0),   					-- Active HIGH reset (from pin)
 			rxd_pin		=> rxd_i,    					-- RS232 RXD pin - directly from pin
-			count_value => probe_count
+			count_value => probe_count,
+			count_state => probe_state
 		);
 		
 		
@@ -61,6 +65,7 @@ begin
           PORT MAP (
             clk => clk_i,
             probe_in0 => probe_count,
+            probe_in1 => probe_state,
             probe_out0 => probe_rst
           );
 	
